@@ -1,0 +1,17 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package tugasproject2;
+
+/**
+ *
+ * @author VICTUS
+ */
+public class Ferrari extends Deklarasi {
+    @Override
+    public void hitungPoin() {
+        super.hitungPoin();
+        System.out.println("Poin Ferrari: " + getPoin());
+    }
+}
